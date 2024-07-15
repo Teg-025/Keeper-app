@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.header {
+    background-color: #f5ba14;
+    font-family: "McLaren";
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    padding-left: 1.6rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Body */
+body{
+    background-color: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.container{
+    padding: 2rem;
+    display: flex;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+}
+
+.note{
+    background-color: white;
+    font-family: "Montserrat";
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 8px 0 #a19e9e9d;
+    width: 14rem;
+    height:fit-content;
+    position: relative;
+}
+#input-title, .title{
+    font-weight: 600;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.del-btn{
+    background-color: white;
+    /* padding: 0.4rem 0.2rem 0.4rem 0.2rem; */
+    border: none;
+    color: #f4b322;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    position: fixed;
+    left: 0;
+    bottom : 0;
+    width: 100%;
+    padding: 1rem;
+    color: #a19e9e;
+}
+
+/* InputNote style */
+
+.form{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 20rem;
+    box-shadow: 0px 0px 8px #a19e9eb1;
+    border-radius: 0.6rem;
+    position: relative;
+    padding: 0.6rem 0.2rem 0.6rem 0.2rem;
+    background-color: white;
+}
+.input-container{
+    display: flex;justify-content: center;align-items: center;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+#input-title, #input-note{
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    min-width: 28rem;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.form button{
+    position: absolute;
+    right: 1rem;
+    bottom: -1rem;
+    width: 2.28rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: #f4b916;
+    color: white;
+    border:none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.177);
+}
